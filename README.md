@@ -24,3 +24,9 @@ My birthday: 2000.
 ![This is an Image](https://raw.githubusercontent.com/alirioCorea/core-code-from-scratch-readme/main/Screenshot%202022-04-07%20192307.png)
 
 My birthday in binary: 1111101000.
+
+## MIPS
+Based on the [guide](htthttps://github.com/corecodeio/devguide-from-scratch-2022-02/tree/main/src/technologies/2022/week01/exercises/e2/descp:// "guide") and the examples of the low-level language, create the following
+
+1. Create a program that adds any two given numbers provided by the user
+2. Create a program that displays your name
