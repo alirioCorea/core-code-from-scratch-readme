@@ -20,5 +20,7 @@ End
 Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)
 ## Your date of birth in the matrix?
 My birthday: 2000.
+
 ![This is an Image](https://raw.githubusercontent.com/alirioCorea/core-code-from-scratch-readme/main/Screenshot%202022-04-07%20192307.png)
+
 My birthday in binary: 1111101000.
