@@ -161,3 +161,11 @@ else if (n < 1000 && n % 10 == 0) {
 }
 
 ```
+# Week 2 : Javascript
+## Week challenges (Monday) 
+- [x] Follow the github course, you can find it here
+- [x] Create an account in Codewars, follow this instructions
+- [x] Read about: if...else
+- [x] Read about: for
+- [x] Read about: while
+- [x] Read about: functions
