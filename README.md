@@ -186,4 +186,54 @@ function multiply(a, b){
 }
 ```
 
-### ASCII Total exercise
+### 2. ASCII Total exercise
+You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
+```javascript
+function uniTotal (string) {
+    let total=0;
+    for(let i=0;i<string.length;i++){
+        total+=string[i].charCodeAt();
+    }
+    return total;
+}
+```
+
+### 3. Char From ASCII Value exercise
+Write a function get_char() / getChar() which takes a number and returns the corresponding ASCII char for that value.
+
+```javascript
+function getChar(c){
+    let chart=String.fromCharCode(c);
+    return chart;
+  }
+```
+### 4.Binary Addition exercise
+Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition.
+The binary number returned should be a string.
+
+```javascript
+function addBinary(a,b) {
+    let total=a+b;
+    return total.toString(2);
+}
+```
+
+### 5.Student's Final Grade exercise
+Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
+
+```javascript
+function finalGrade (exam, projects) { 
+    let notaFinal=0;
+    if(exam>90 || projects>10){
+        notaFinal=100;
+    }
+    else if(exam > 75 && projects >= 5){
+        notaFinal=90;
+    }
+    else if(exam > 50 && projects >= 2){
+        notaFinal=75;
+    }
+    return notaFinal;
+  }
+
+```
