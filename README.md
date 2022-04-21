@@ -8,7 +8,7 @@ An interpreted language is a programming language where a program called interpr
 Java is a particular language because it is compiled into an intermediate language called bytecode, which is then interpreted. So what we can see is that Java is a special lenguage because use both ways to arrive at the final step.
 ### Pseudocode currency converter.
 `Algorithm`
-```
+```javascript
 Start
 #cantidad<-- GET ;
 #bitcoin_dolar<--GET From (https://coinmarketcap.com/es/currencies/bitcoin/);
@@ -96,7 +96,7 @@ Based on the [guide](htthttps://github.com/corecodeio/devguide-from-scratch-2022
 In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise
 
 `Even numbers in the range of numbers from 0 to 100`
-```
+```javascript
 for(let i=0;i<=100;i++){
     if(i%2===0){
         console.log(i);
@@ -106,7 +106,7 @@ for(let i=0;i<=100;i++){
 ### Bad code
 #### Description
 The code shown below is not working in the right way, as a task you must find the error made by the developer who programmed this code and correct it, for this exercise you must explain what the error is and place the correct code
-```
+```javascript
 var cond = false;
 
 if ((cond = true)) {
@@ -116,7 +116,7 @@ if ((cond = true)) {
 }
 ```
 `My solution`
-```
+```javascript
 var cond = false;
 
 if (cond) {
@@ -130,7 +130,7 @@ if (cond) {
 #### Description
 You must create the code that follows the following logic, if the given number is 100, take this number as special and show the following message: "This is a special number!", but if the number is less than 1000, multiple of 10 and different from 100, you must show the following message: "This number is almost special". if none of the given conditions are met show the following message: "Just a regular number". Another developer was trying to program the logic, but apparently couldn't, you need to fix the code to work properly
 
-```
+```javascript
 var n = 100;
 
 if (n == 100) {
@@ -148,7 +148,7 @@ if (n % 10 == 0) {
 
 `My solution`
 
-```
+```javascript
 var n = 10;
 
 if (n === 100) {
@@ -169,3 +169,21 @@ else if (n < 1000 && n % 10 == 0) {
 - [x] Read about: for
 - [x] Read about: while
 - [x] Read about: functions
+
+## Week challenges (Tuesday) 
+### 1. Multiply exercise
+This code does not execute properly. Try to figure out why.
+```javascript
+function multiply(a, b){
+	a * b
+}
+```
+`My solution`
+```javascript
+function multiply(a, b){
+	let c = a * b;
+	return c;
+}
+```
+
+### ASCII Total exercise
